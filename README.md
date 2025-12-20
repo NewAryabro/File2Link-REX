@@ -90,7 +90,7 @@ A huge thanks to the developers who made this project possible:
 
 | [**Abhi**](https://t.me/about_zani/143) | [**Abhinav**](https://t.me/adityaabhinav) | [**Master**](https://t.me/V_Sbotmaker) |
 | :---: | :---: | :---: |
-| Owner | Developer | Contributor |
+| Owner | Developer | Developer |
 
 </div>
 
