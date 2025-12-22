@@ -3,13 +3,13 @@ from Script import script
 
 # 🚀 __Bot Configuration__
 SESSION = environ.get('SESSION', 'RexBots')  # Session name
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '7515868'))
+API_HASH = environ.get('API_HASH', 'dbd251e9ad4883b0443cc82b618ac6fa')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7003834548:AAF56BBTxrRU0k2pRmTpc59zl5o5UO_l6SQ')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '6081617163').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1001798300759").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'RexBots_Official')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'RexBots_Official')
 
@@ -20,11 +20,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/RexBots_Official')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/RexBots_Official')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002370043591'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002370043591'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002370043591'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002370043591'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002370043591"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -42,7 +42,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
-DB_URL = environ.get('DATABASE_URI', "")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://MarvelAndDc:MarvelAndDc@cluster0.z0uow.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 
 # 📸 __Media & Images__
