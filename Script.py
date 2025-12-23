@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hey {}, </b>\n\n<blockquote><i>Send me a file or add me as an admin to any channel to instantly generate file links.\n\nInvite me to your channel and I’ll instantly create download links for any media you share. I’ll also add the right buttons to each post with a URL, making access seamless.</i></blockquote>\n\n<blockquote><a href=https://t.me/Telugu_Movies_999>⛩️Mᴀɪɴ Cʜᴀɴɴᴇʟ⛩️</a></blockquote>"""
+    START_TXT = """<b>Hey {}, I'ᴍ ᴀ Fɪʟᴇ ➜ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ 🤖 </b>\n\n<blockquote><i>❓ Hᴏᴡ Tᴏ Usᴇ Mᴇ 🤔❗\n\nCʟɪᴄᴋ Sᴛᴀʀᴛ Bᴜᴛᴛᴏɴ\nSᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇ\nGᴇᴛ Iɴsᴛᴀɴᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs 🔗\n\n📢 I Aʟsᴏ Wᴏʀᴋ Iɴ Cʜᴀɴɴᴇʟs!</i></blockquote>\n\n<blockquote><a href=https://t.me/Telugu_Movies_999>⛩️Mᴀɪɴ Cʜᴀɴɴᴇʟ⛩️</a></blockquote>"""
 
     RESTART_TXT = """\n<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !\n\n📅 Dᴀᴛᴇ : <code>{}</code>\n⏰ Tɪᴍᴇ : <code>{}</code>\n🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>\n🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.6.00 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
