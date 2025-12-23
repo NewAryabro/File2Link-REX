@@ -10,14 +10,14 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7003834548:AAF56BBTxrRU0k2pRmTpc59zl5o5UO_
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '6081617163').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1001798300759").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'RexBots_Official')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'RexBots_Official')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Arya_Filetolink_bot')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'Arya_Filetolink_bot')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/RexBots_Official')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/RexBots_Official')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/RexBots_Official')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/RexBots_Official')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/Telugu_Movies_999')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/+DNXq2mO7VLA5NmY1')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', '')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', '')
 
 # 📢 __Log Channels__
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002370043591'))
@@ -46,16 +46,16 @@ DB_URL = environ.get('DATABASE_URI', "mongodb+srv://MarvelAndDc:MarvelAndDc@clus
 DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 
 # 📸 __Media & Images__
-QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://ibb.co/mVkSySr7")
-AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/mVkSySr7')
-PICS = environ.get('PICS', 'https://ibb.co/mVkSySr7')
-FILE_PIC = environ.get('FILE_PIC', 'https://ibb.co/mVkSySr7')
+QR_CODE = environ.get('QR_CODE', '')
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://iili.io/fEsRjyJ.md.jpg")
+AUTH_PICS = environ.get('AUTH_PICS', 'https://iili.io/fEsRjyJ.md.jpg')
+PICS = environ.get('PICS', 'https://iili.io/fEsRjyJ.md.jpg')
+FILE_PIC = environ.get('FILE_PIC', 'https://iili.io/fEsRjyJ.md.jpg')
 
 # 📝 __Captions__
-FILE_CAPTION = environ.get('FILE_CAPTION', script.CAPTION)
+FILE_CAPTION = environ.get('FILE_CAPTION', None)
 BATCH_FILE_CAPTION = environ.get('BATCH_FILE_CAPTION', script.CAPTION)
-CHANNEL_FILE_CAPTION = environ.get('CHANNEL_FILE_CAPTION', script.CAPTION)
+CHANNEL_FILE_CAPTION = environ.get('CHANNEL_FILE_CAPTION', None)
 
 # ⏱️ __Time & Limits__
 PING_INTERVAL = int(environ.get("PING_INTERVAL", 1200))
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'rexbots_official')
+NAME = environ.get('name', 'Telugu_Movies_999')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
