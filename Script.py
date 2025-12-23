@@ -9,7 +9,7 @@ class script(object):
 
     HELP2_TXT = """<blockquote><b>How to Use File to Link Bot\n\nBasic Usage:\n• Send any file or media from Telegram\n• Bot will generate permanent download and stream links\n• Use these links to download or stream content through our servers\n• For streaming, paste the provided link in any video player\n\nKey Features:\n• Permanent link generation\n• Direct download support\n• Video streaming capability\n• Channel support (Add bot as admin)\n• Custom shortener integration\n• Unlimited file size support\n\nChannel Usage:\n1. Add bot as admin to your channel\n2. Bot will automatically process files\n3. Links will be generated for all media\n\n⚠️ Important Notes:\n• All links are permanent and won't expire\n• Sharing inappropriate content will result in permanent ban\n• Report any issues to our support team\n\n🔞 Adult content strictly prohibited.\n\n📮 Help & Support:\n• Updates: @RexBots_Official\n• Support: @RexBots_Official\n\n <u><i>Report bugs to <a href='https://t.me/RexBots_Official'>Developer</a></u></i></b></blockquote>"""
 
-    CAPTION = """🎬 <i><b><a href="https://t.me/Telugu_Movies_999">{file_name}</a></b>\n\n<blockquote>𝟷𝟾+ ᴄʜᴀɴɴᴇʟ - <a href="https://t.me/+jA8m2116YpEyMjQ1">𝗔𝗗𝗨𝗟𝗧𝗦 𝗢𝗡𝗟𝗬 🔞</a></blockquote></i>"""
+    CAPTION = """🎬 <i><a href='{}'>{}</a></i>\n\n<blockquote>𝟷𝟾+ ᴄʜᴀɴɴᴇʟ - <a href="https://t.me/+jA8m2116YpEyMjQ1">𝗔𝗗𝗨𝗟𝗧𝗦 𝗢𝗡𝗟𝗬 🔞</a></blockquote></i>"""
     
     LOG_TEXT = """<b>#NewUser {}\n    \nID - <code>{}</code>\nNᴀᴍᴇ - {}</b>"""
 
