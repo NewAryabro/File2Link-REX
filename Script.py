@@ -3,7 +3,7 @@ class script(object):
 
     RESTART_TXT = """\n<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !\n\n📅 Dᴀᴛᴇ : <code>{}</code>\n⏰ Tɪᴍᴇ : <code>{}</code>\n🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>\n🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.6.00 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
-    HELP_TXT = """<blockquote><b>You don't need many commands to use this bot\n\nJust send me files and I will give you direct download & streaming link\n\nAlso you can use me in your channel just add me and make me admin and see my power 💥\n\nFor more, use /help command\nMore, use /about command</b></blockquote>"""
+    HELP_TXT = """<blockquote><a href=https://t.me/+KNtsns9JkKMwYjFl>⛩️𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⛩️</a></blockquote>\n\n<blockquote><a href=https://t.me/Telugu_Movies_999_Bot>❃ 𝗙𝗟𝗜𝗠𝗦 𝗙𝗜𝗡𝗗𝗜𝗡𝗚 𝗕𝗢𝗧 🔍</a>\n<a href=https://t.me/Arya_Filetolink_bot>❃ 𝗙𝗜𝗟𝗘 𝗧𝗢 𝗟𝗜𝗡𝗞 𝗕𝗢𝗧</a>\n<a href=https://t.me/vs_Files_Mx_player/253>❃ 𝗧𝗨𝗧𝗢𝗥𝗜𝗔𝗟𝗦</a>\n\n<blockquote><a href=https://t.me/+3gzUrBQmKGY5ZjU1>⛩️𝗢𝗨𝗥 𝗔𝗟𝗟 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦⛩️</a></blockquote>"""
     
     ADMIN_CMD_TXT = """<blockquote><b>\n\n# Admin Only Commands 👑  \n/ban - Ban a user/channel [FOR ADMINS USE ONLY]  \n/unban - Unban a user/channel [FOR ADMINS USE ONLY]  \n/broadcast - Send broadcast message [FOR ADMINS USE ONLY]  \n/pin_broadcast - Pin broadcast message [FOR ADMINS USE ONLY]  \n/restart - Restart the bot [FOR ADMINS USE ONLY]  \n/stats - Show bot statistics [FOR ADMINS USE ONLY]  \n/blocked - List of blocked users [FOR ADMINS USE ONLY] \n</b></blockquote>"""
 
@@ -13,7 +13,7 @@ class script(object):
     
     LOG_TEXT = """<b>#NewUser {}\n    \nID - <code>{}</code>\nNᴀᴍᴇ - {}</b>"""
 
-    ABOUT_TXT = """<blockquote><a href=https://t.me/Telugu_Movies_999>⛩️𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⛩️</a></blockquote>\n\n<blockquote><a href=https://t.me/+RB91gwr1Z_ZkODM1>❃ 𝗧𝗘𝗟𝗨𝗚𝗨 𝗗𝗨𝗕𝗕𝗘𝗗 𝗠𝗢𝗩𝗜𝗘𝗦</a>\n<a href=https://t.me/+3prUEMKkhLRlMDU1>❃ 𝗧𝗘𝗟𝗨𝗚𝗨 𝗠𝗢𝗩𝗜𝗘𝗦</a>\n<a href=https://t.me/+3dsxq0ENV702NWI1>❃ 𝗧𝗘𝗟𝗨𝗚𝗨 𝗔𝗡𝗜𝗠𝗘</a>\n<a href=https://t.me/+cWHPoPFttf42OWRl>❃ 𝗔𝗟𝗟 𝗪𝗘𝗕 𝗦𝗘𝗥𝗜𝗘𝗦</a>\n<a href=https://t.me/+wrf55-FpUOtjZjc9>❃ 𝗛𝗔𝗟𝗟 𝗣𝗥𝗜𝗡𝗧 𝗠𝗢𝗩𝗜𝗘𝗦</a>\n<a href=https://t.me/Vs_Best_Deals>𝗕𝗘𝗦𝗧 𝗙𝗔𝗦𝗛𝗜𝗢𝗡 𝗗𝗘𝗔𝗟𝗦</a></blockquote>"""
+    ABOUT_TXT = """<blockquote><a href=https://t.me/Telugu_Movies_999>⛩️𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⛩️</a></blockquote>\n\n<blockquote><a href=https://t.me/+RB91gwr1Z_ZkODM1>❃ 𝗧𝗘𝗟𝗨𝗚𝗨 𝗗𝗨𝗕𝗕𝗘𝗗 𝗠𝗢𝗩𝗜𝗘𝗦</a>\n<a href=https://t.me/+3prUEMKkhLRlMDU1>❃ 𝗧𝗘𝗟𝗨𝗚𝗨 𝗠𝗢𝗩𝗜𝗘𝗦</a>\n<a href=https://t.me/+3dsxq0ENV702NWI1>❃ 𝗧𝗘𝗟𝗨𝗚𝗨 𝗔𝗡𝗜𝗠𝗘</a>\n<a href=https://t.me/+cWHPoPFttf42OWRl>❃ 𝗔𝗟𝗟 𝗪𝗘𝗕 𝗦𝗘𝗥𝗜𝗘𝗦</a>\n<a href=https://t.me/+wrf55-FpUOtjZjc9>❃ 𝗛𝗔𝗟𝗟 𝗣𝗥𝗜𝗡𝗧 𝗠𝗢𝗩𝗜𝗘𝗦</a>\n<a href=https://t.me/Vs_Best_Deals>❃ 𝗕𝗘𝗦𝗧 𝗙𝗔𝗦𝗛𝗜𝗢𝗡 𝗗𝗘𝗔𝗟𝗦</a></blockquote>"""
 
     AUTH_TXT = """<i><b>Hᴇʏ {}! 👋\n\nTᴏ ᴄᴏɴᴛɪɴᴜᴇ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ, ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 💬\n\nSᴇʀᴠᴇʀ ʟᴏᴀᴅ ɪs ʜɪɡʜ, sᴏ ᴀᴄᴄᴇss ɪs ʟɪᴍɪᴛᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴍᴇᴍʙᴇʀs ᴏɴʟʏ 🚀</b></i>"""
 
