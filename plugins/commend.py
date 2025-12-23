@@ -31,11 +31,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(me2, user_id, mention))
     if len(message.command) == 1 or message.command[1] == "start":
         buttons = [[
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇᴅ •', url=CHANNEL),
-            InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url=SUPPORT)
+            InlineKeyboardButton('• ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ •', url=CHANNEL),
+            InlineKeyboardButton('• Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ •', url=SUPPORT)
         ], [
-            InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
-            InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
+            InlineKeyboardButton('• Oᴜʀ Bᴏᴛs •', callback_data='help'),
+            InlineKeyboardButton('• Oᴜʀ Cʜᴀɴɴᴇʟs •', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -156,11 +156,11 @@ async def cb_handler(client, query):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton(' ᴜᴘᴅᴀᴛᴇᴅ ', url=CHANNEL),
-	    InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ ', url=SUPPORT)
-        ],[
-            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
-            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
+            InlineKeyboardButton('• ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ •', url=CHANNEL),
+            InlineKeyboardButton('• Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ •', url=SUPPORT)
+        ], [
+            InlineKeyboardButton('• Oᴜʀ Bᴏᴛs •', callback_data='help'),
+            InlineKeyboardButton('• Oᴜʀ Cʜᴀɴɴᴇʟs •', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_caption(
@@ -349,7 +349,7 @@ async def delete_files_list(client, message):
 @Client.on_message(filters.command("about"))
 async def about(client, message):
     buttons = [[
-       InlineKeyboardButton('💻', url='https://t.me/RexBots_Official')
+       InlineKeyboardButton('𝘼𝘿𝙐𝙇𝙏 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🔞', url='https://t.me/RexBots_Official')
     ],[
        InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
     ]]
