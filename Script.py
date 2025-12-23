@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hey {}, </b>\n\n<blockquote><i>Send me a file or add me as an admin to any channel to instantly generate file links.\n\nInvite me to your channel and I’ll instantly create download links for any media you share. I’ll also add the right buttons to each post with a URL, making access seamless.</i></blockquote>\n\n<blockquote><a href=https://t.me/RexBots_Official>➜ Add To Channel</a></blockquote>"""
+    START_TXT = """<b>Hey {}, </b>\n\n<blockquote><i>Send me a file or add me as an admin to any channel to instantly generate file links.\n\nInvite me to your channel and I’ll instantly create download links for any media you share. I’ll also add the right buttons to each post with a URL, making access seamless.</i></blockquote>\n\n<blockquote><a href=https://t.me/Telugu_Movies_999>⛩️Mᴀɪɴ Cʜᴀɴɴᴇʟ⛩️</a></blockquote>"""
 
     RESTART_TXT = """\n<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !\n\n📅 Dᴀᴛᴇ : <code>{}</code>\n⏰ Tɪᴍᴇ : <code>{}</code>\n🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>\n🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.6.00 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
@@ -13,7 +13,7 @@ class script(object):
     
     LOG_TEXT = """<b>#NewUser {}\n    \nID - <code>{}</code>\nNᴀᴍᴇ - {}</b>"""
 
-    ABOUT_TXT = """<blockquote><b>╔══❰ {} ❱═════❍\n║╭━━━━━━━━━━━━━━━━━━➣\n║┣⪼🤖My Name : {}\n║┣⪼👦Developer : <a href='https://t.me/RexBots_Official'>Owner</a>\n║┣⪼❣️Update : <a href=https://t.me/RexBots_Official>RexBots Official</a>\n║┣⪼⏲️Bot Uptime :- {}\n║┣⪼📡Hosted On : Koyeb \n║┣⪼🗣️Language : Python \n║┣⪼📚Library : Pyrogram\n║┣⪼🗒️Version : {} [Stable]\n║╰━━━━━━━━━━━━━━━➣\n╚══════════════════❍ </b></blockquote>"""
+    ABOUT_TXT = """<blockquote><b>╔══❰ {} ❱═════❍\n║╭━━━━━━━━━━━━━━━━━━➣\n║┣⪼🤖My Name : {}\n║┣⪼👦Developer : <a href='https://t.me/Telugu_Movies_999'>Owner</a>\n║┣⪼❣️Update : <a href=https://t.me/RexBots_Official>RexBots Official</a>\n║┣⪼⏲️Bot Uptime :- {}\n║┣⪼📡Hosted On : Koyeb \n║┣⪼🗣️Language : Python \n║┣⪼📚Library : Pyrogram\n║┣⪼🗒️Version : {} [Stable]\n║╰━━━━━━━━━━━━━━━➣\n╚══════════════════❍ </b></blockquote>"""
 
     AUTH_TXT = """<i><b>Hᴇʏ {}! 👋\n\nTᴏ ᴄᴏɴᴛɪɴᴜᴇ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ, ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 💬\n\nSᴇʀᴠᴇʀ ʟᴏᴀᴅ ɪs ʜɪɡʜ, sᴏ ᴀᴄᴄᴇss ɪs ʟɪᴍɪᴛᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴍᴇᴍʙᴇʀs ᴏɴʟʏ 🚀</b></i>"""
 
