@@ -53,9 +53,9 @@ PICS = environ.get('PICS', 'https://iili.io/fEsRjyJ.md.jpg')
 FILE_PIC = environ.get('FILE_PIC', 'https://iili.io/fEsRjyJ.md.jpg')
 
 # 📝 __Captions__
-FILE_CAPTION = environ.get('FILE_CAPTION', None)
+FILE_CAPTION = environ.get('FILE_CAPTION', script.CAPTION)
 BATCH_FILE_CAPTION = environ.get('BATCH_FILE_CAPTION', script.CAPTION)
-CHANNEL_FILE_CAPTION = environ.get('CHANNEL_FILE_CAPTION', None)
+CHANNEL_FILE_CAPTION = environ.get('CHANNEL_FILE_CAPTION', script.CAPTION)
 
 # ⏱️ __Time & Limits__
 PING_INTERVAL = int(environ.get("PING_INTERVAL", 1200))
