@@ -47,10 +47,10 @@ DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 
 # 📸 __Media & Images__
 QR_CODE = environ.get('QR_CODE', '')
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://iili.io/fEsRjyJ.md.jpg")
-AUTH_PICS = environ.get('AUTH_PICS', 'https://iili.io/fEsRjyJ.md.jpg')
-PICS = environ.get('PICS', 'https://iili.io/fEsRjyJ.md.jpg')
-FILE_PIC = environ.get('FILE_PIC', 'https://iili.io/fEsRjyJ.md.jpg')
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://iili.io/fEmNKIn.md.jpg")
+AUTH_PICS = environ.get('AUTH_PICS', 'https://iili.io/fEmNKIn.md.jpg')
+PICS = environ.get('PICS', 'https://iili.io/fEmNKIn.md.jpg')
+FILE_PIC = environ.get('FILE_PIC', 'https://iili.io/fEmNKIn.md.jpg')
 
 # 📝 __Captions__
 FILE_CAPTION = environ.get('FILE_CAPTION', script.CAPTION)
